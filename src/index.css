@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: 'Vazirmatn', sans-serif;
+  color: #1e293b;
+  background: #f8fafc;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+html { direction: rtl; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible { outline: 3px solid #a5b4fc; outline-offset: 2px; }
